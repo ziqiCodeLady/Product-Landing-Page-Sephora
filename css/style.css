@@ -13,12 +13,14 @@ body {
 header {
   position: fixed;
   width: 100%;
+  min-height: 77px;
   top: 0;
   left: 0;
   background-color: black;
   color: white;
   font-family: 'Exo 2', sans-serif;
-  padding: 1em;
+  padding-top:30px;
+  padding-left: 100px;
 }
 
 #nav-bar {
@@ -33,5 +35,5 @@ header {
 
 #header-img {
   background-color: transparent;
-  width: 30%
+  width: 20%;
 }
