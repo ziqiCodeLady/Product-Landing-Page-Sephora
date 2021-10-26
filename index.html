@@ -6,71 +6,111 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap" rel="stylesheet">
 
   <title>Project Landing Page- FreeCodeCamp</title>
 </head>
 
 <body>
-
   <header id="header">
-    
+
     <nav class="navbar navbar-expand-lg" id="nav-bar">
-      <img id="header-img" src="https://images.squarespace-cdn.com/content/v1/5cd4841aaf4683aecca854d0/1560729445408-YLHH5NGFSAKSFCYK3IEC/SITE_LOGO.png?format=1500w" alt="logo">
+      <img id="header-img"
+        src="https://images.squarespace-cdn.com/content/v1/5cd4841aaf4683aecca854d0/1560729445408-YLHH5NGFSAKSFCYK3IEC/SITE_LOGO.png?format=1500w"
+        alt="logo">
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link " href="#our-story">Our Story</a><span class="sr-only">(current)</span></a>
+            <a class="nav-link " href="#our-story">OUR STORY</a><span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#best-seller">Best Sellers</a>
+            <a class="nav-link" href="#best-seller">BEST SELLERS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#great-deal">Great Deal</a>
+            <a class="nav-link" href="#great-deal">GREAT DEALS</a>
           </li>
         </ul>
       </div>
     </nav>
 
   </header>
- <main>
 
-   <img id="header-img" src="https://i0.wp.com/agianathing.com/wp-content/uploads/2018/10/Bold-Text-YouTube-Thumbnail.jpg?resize=1024%2C576&ssl=1" alt="logo">
+  <main>
 
- </main>
-  <div class="container">
-    <section>
-      <br>
-      <h2>We Belong to Something Beautiful</h2>
+
+
+    <div class="container">
+
+      <!--Video Section-->
+      <section id="our-story">
+        <div>
+          <h2>OUR STORY</h2>
+          <iframe id="video" src="https://www.youtube.com/embed/HoZeiQRWfR4" title="YouTube video player"></iframe>
+        </div>
+      </section>
+
+      <!--Best Seller Section-->
+      <div class="row">
+        <div class="col" id="best-seller">
+          1 of 2
+        </div>
+        <div class="col" id="best-seller">
+          2 of 2
+        </div>
+      </div>
+
+      <!--Great Deal Section-->
+      <div class="row">
+        <div class="col" id="great-deal">
+          1 of 3
+        </div>
+        <div class="col" id="great-deal">
+          2 of 3
+        </div>
+        <div class="col" id="great-deal">
+          3 of 3
+        </div>
+      </div>
+
+      <!--Form Section-->
       <form id="form" class="" action="https://www.freecodecamp.org/email-submit" method="post">
         <input id="email" type="email" name="email" placeholder="Enter your email" required>
         <input id="submit" type="submit" name="submit" value="submit">
 
+        <h2>We Belong to Something Beautiful</h2>
+    <img id="header-img"
+      src="https://i0.wp.com/agianathing.com/wp-content/uploads/2018/10/Bold-Text-YouTube-Thumbnail.jpg?resize=1024%2C576&ssl=1"
+      alt="logo">
       </form>
+    </div>
 
-    </section>
 
-    <section id="our-story">
-      <div id=video">
-        <h2>Our Story</h2>
-        <iframe id="video" src="https://www.youtube.com/embed/HoZeiQRWfR4" title="YouTube video player"></iframe>
-      </div>
-    </section>
 
-    <section id="best-seller">
-
-    </section>
-
-    <section id="great-deal">
-
-    </section>
-  </div>
     
+  
+
+    </section>
+
+
+
+  </main>
+
+
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
 
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
