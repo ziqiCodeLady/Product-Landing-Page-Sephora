@@ -1,26 +1,24 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 
-body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.5;
-}
+
 
 header {
   position: fixed;
   width: 100%;
-  min-height: 77px;
+  min-height: 85px;
   top: 0;
   left: 0;
   background-color: black;
   color: white;
   font-family: 'Exo 2', sans-serif;
   padding-top:30px;
+  padding-bottom: 20px;
   padding-left: 120px;
+}
+
+#header-img {
+  background-color: transparent;
+  width: 20%;
 }
 
 .nav-link {
@@ -28,7 +26,9 @@ header {
   text-align: right;
 }
 
-#header-img {
-  background-color: transparent;
-  width: 20%;
+.container {
+  padding-top: 150px;
+  margin-top: 50px;
+  font-family: 'Zen Antique Soft', serif;
 }
+
