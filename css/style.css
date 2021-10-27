@@ -32,3 +32,11 @@ header {
   font-family: 'Zen Antique Soft', serif;
 }
 
+#our-story div h2 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#our-story div iframe {
+  align-items: center;
+}
