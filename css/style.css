@@ -32,11 +32,15 @@ header {
   font-family: 'Zen Antique Soft', serif;
 }
 
-#our-story div h2 {
+h2 {
   text-align: center;
   padding-bottom: 30px;
 }
 
 #our-story {
   text-align: center;
+}
+
+#video {
+  margin-bottom: 40px;
 }
