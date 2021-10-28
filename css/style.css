@@ -37,6 +37,6 @@ header {
   padding-bottom: 30px;
 }
 
-#our-story div iframe {
-  align-items: center;
+#our-story {
+  text-align: center;
 }
