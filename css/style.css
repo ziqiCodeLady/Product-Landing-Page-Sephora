@@ -69,3 +69,20 @@ p {
   font-size: 1.2em;
 
 }
+
+footer {
+  background-color: black;
+  padding: 2em;
+  color: white;
+  margin-top: 50px;
+  font-family: 'Exo 2', sans-serif;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li {
+  display: inline;
+  padding: 2em;
+}
