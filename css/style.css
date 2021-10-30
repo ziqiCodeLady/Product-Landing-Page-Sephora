@@ -1,19 +1,16 @@
 
-
-
-
 header {
-  position: fixed;
-  width: 100%;
-  min-height: 85px;
-  top: 0;
-  left: 0;
+  
+
+  font-family: 'Exo 2', sans-serif;
+  
+  
+}
+
+#background {
   background-color: black;
   color: white;
-  font-family: 'Exo 2', sans-serif;
-  padding-top:30px;
-  padding-bottom: 20px;
-  padding-left: 120px;
+  min-height: 85px;
 }
 
 #header-img {
@@ -26,9 +23,12 @@ header {
   text-align: right;
 }
 
+.navbar {
+  padding: 0 0 0 0;
+}
+
 .container {
-  padding-top: 150px;
-  margin-top: 50px;
+  
   font-family: 'Zen Antique Soft', serif;
 }
 
@@ -85,4 +85,8 @@ footer ul {
 footer li {
   display: inline;
   padding: 2em;
+}
+
+img {
+  display: flex;
 }

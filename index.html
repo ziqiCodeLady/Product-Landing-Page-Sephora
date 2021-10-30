@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
+
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,50 +18,59 @@
 </head>
 
 <body>
-  <header id="header">
 
-    <nav class="navbar navbar-expand-lg" id="nav-bar">
-      <img id="header-img"
-        src="https://images.squarespace-cdn.com/content/v1/5cd4841aaf4683aecca854d0/1560729445408-YLHH5NGFSAKSFCYK3IEC/SITE_LOGO.png?format=1500w"
-        alt="logo">
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link " href="#our-story">OUR STORY</a><span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#best-seller">BEST SELLERS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#great-deal">GREAT DEALS</a>
-          </li>
-        </ul>
-      </div>
+  
+    <header id="header">
+      <nav class="navbar navbar-expand-lg fixed-top" id="background" >
+      <nav id="nav-bar">
+        <img id="header-img"
+          src="https://images.squarespace-cdn.com/content/v1/5cd4841aaf4683aecca854d0/1560729445408-YLHH5NGFSAKSFCYK3IEC/SITE_LOGO.png?format=1500w"
+          alt="logo">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link " href="#our-story">OUR STORY</a><span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#best-seller">BEST SELLERS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#great-deal">GREAT DEALS</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </nav>
+    </header>
+  
 
-  </header>
+
 
   <main>
-
-
 
     <div class="container">
 
       <!--Video Section-->
-      <section id="our-story">
+      <div id="our-story">
         <div>
           <h2>OUR STORY</h2>
-          <p>At Sephora, beauty is in our DNA. Our revolutionary beauty-retail concept, founded in France by Dominique Mandonnaud in 1970,  </p>
-            <p>is defined by its unique,environment with an ever-increasing assortment of products from carefully curated brands, </p> 
-            <p>featuring indie darlings, emerging favorites, trusted classics, and Sephora’s own, SEPHORA COLLECTION. </p>
-            <p>Sephora is not only the leading retailer of perfume and cosmetics stores in France, but also a powerful beauty presence in countries around the world thanks to its unparalleled assortment of prestige products in every category, unbiased service from experts, interactive shopping environment, and innovation.</p>
+          <p>At Sephora, beauty is in our DNA. Our revolutionary beauty-retail concept, founded in France by Dominique
+            Mandonnaud in 1970, </p>
+          <p>is defined by its unique,environment with an ever-increasing assortment of products from carefully curated
+            brands, </p>
+          <p>featuring indie darlings, emerging favorites, trusted classics, and Sephora’s own, SEPHORA COLLECTION. </p>
+          <p>Sephora is not only the leading retailer of perfume and cosmetics stores in France, but also a powerful
+            beauty presence in countries around the world thanks to its unparalleled assortment of prestige products in
+            every category, unbiased service from experts, interactive shopping environment, and innovation.</p>
           <iframe id="video" src="https://www.youtube.com/embed/HoZeiQRWfR4" title="YouTube video player" width="800"
             height="600"></iframe>
         </div>
-      </section>
+      </div>
 
       <!--Best Seller Section-->
-      <section id="best-seller">
+
+      
+      <div id="best-seller">
         <h2>BEST SELLERS</h2>
         <div class="row">
           <div class="col" id="great-deal">
@@ -74,48 +85,49 @@
               alt="">
           </div>
         </div>
+      </div>
 
-        <!--Great Deal Section-->
+      <!--Great Deal Section-->
 
-        <section id="great-deal">
-          <h2>GREAT DEALS</h2>
-          <div class="row">
-            <div class="col" id="best-seller">
-              <img src="https://www.musingsofamuse.com/wp-content/uploads/2021/03/Sephora-Spring-2021-Savings-Event.jpg"
-                alt="">
-            </div>
-            <div class="col" id="best-seller">
-              <img src="https://affordablebyamanda.com/wp-content/uploads/2020/08/sephora-sale-promo-deals-2020.png"
-                alt="">
-            </div>
+      <div id="great-deal">
+        <h2>GREAT DEALS</h2>
+        <div class="row">
+          <div class="col" id="best-seller">
+            <img src="https://www.musingsofamuse.com/wp-content/uploads/2021/03/Sephora-Spring-2021-Savings-Event.jpg"
+              alt="">
           </div>
-        </section>
+          <div class="col" id="best-seller">
+            <img src="https://affordablebyamanda.com/wp-content/uploads/2020/08/sephora-sale-promo-deals-2020.png"
+              alt="">
+          </div>
+        </div>
+      </div>
 
 
 
 
-        <!--Form Section-->
-        <section id="personal-form">
-          <h2>WE BELONG TO SOMETHING BEAUTIFUL</h2>
-          <h6>Sign up for Sephora Emails</h6>
-          <form id="form" class="" action="https://www.freecodecamp.org/email-submit" method="post">
-            <input id="email" type="email" name="email" placeholder="Enter your email" required>
-            <input id="submit" type="submit" name="submit" value="submit">
-          </form>
-          </secction>
+      <!--Form Section-->
+      <div id="personal-form">
+        <h2>WE BELONG TO SOMETHING BEAUTIFUL</h2>
+        <h6>Sign up for Sephora Emails</h6>
+        <form id="form" class="" action="https://www.freecodecamp.org/email-submit" method="post">
+          <input id="email" type="email" name="email" placeholder="Enter your email" required>
+          <input id="submit" type="submit" name="submit" value="submit">
+        </form>
+      </div>
+
+      <!-- container class end-->>
     </div>
-
-
-
-
-
-
-    </section>
-
-
 
   </main>
 
+  <footer>
+    <ul>
+      <li> Find a Store </li>
+      <li> Contact Us</li>
+      <li> Live Beauty Help </li>
+    </ul>
+  </footer>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -132,12 +144,6 @@
 
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-<footer>
-  <ul>
-    <li> Find a Store </li>
-    <li> Contact Us</li>
-    <li> Live Beauty Help </li>
-  </ul>
-</footer>
+
 
 </html>
